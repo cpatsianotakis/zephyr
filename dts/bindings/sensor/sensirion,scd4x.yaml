@@ -1,0 +1,14 @@
+#
+# Copyright (c) 2019 Centaur Analytics, Inc
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+---
+description: >
+    This is a representation of the SCD4x
+
+compatible: "sensirion,scd4x"
+
+include: i2c-device.yaml
+
+...

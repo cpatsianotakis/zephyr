@@ -1,0 +1,10 @@
+# SCD4X temperature and humidity sensor configuration options
+
+# Copyright (c) 2016 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig SCD4X
+	bool "SCD4X CO2 Temperature and Humidity Sensor"
+	depends on I2C
+	help
+	  Enable driver for SCD4X CO2 temperature and humidity sensors.
