@@ -767,6 +767,9 @@ void ull_sync_established_report(memq_link_t *link, struct node_rx_hdr *rx)
 #if defined(CONFIG_BT_CTLR_SYNC_PERIODIC_CTE_TYPE_FILTERING)
 	enum sync_status sync_status;
 
+#if defined(CONFIG_BT_CTLR_SYNC_PERIODIC_CTE_TYPE_FILTERING)
+	enum sync_status sync_status;
+
 #if defined(CONFIG_BT_CTLR_CTEINLINE_SUPPORT)
 	sync_status = ftr->sync_status;
 #else
