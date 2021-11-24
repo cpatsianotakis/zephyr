@@ -308,6 +308,11 @@ enum sensor_attribute {
 	/** Alert threshold or alert enable/disable */
 	SENSOR_ATTR_ALERT,
 
+	/** Set sensor at low power mode */
+	SENSOR_ATTR_LOWPOWER_MODE,
+	/** Set sensor at running mode */
+	SENSOR_ATTR_RUN_MODE,
+
 	/**
 	 * Number of all common sensor attributes.
 	 */
