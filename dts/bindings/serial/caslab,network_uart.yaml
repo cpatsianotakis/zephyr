@@ -1,0 +1,7 @@
+---
+description: >
+    This is a representation of the Network UART
+
+include: uart-device.yaml
+
+compatible: "caslab,network_uart"
